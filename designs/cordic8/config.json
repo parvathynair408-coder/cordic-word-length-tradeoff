@@ -1,0 +1,16 @@
+{
+    "DESIGN_NAME": "cordic8",
+    "VERILOG_FILES": "dir::src/*.v",
+    "CLOCK_PERIOD": 10,
+    "CLOCK_PORT": "clk",
+    "CLOCK_NET": "ref::$CLOCK_PORT",
+    "FP_PDN_VOFFSET": 7,
+    "FP_PDN_HOFFSET": 7,
+    "FP_PDN_SKIPTRIM": true,
+    "pdk::sky130*": {
+        "FP_CORE_UTIL": 45,
+        "scl::sky130_fd_sc_hd": {
+            "CLOCK_PERIOD": 10
+        }
+    }
+}
